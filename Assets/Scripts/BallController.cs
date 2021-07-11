@@ -33,7 +33,7 @@ public class BallController : MonoBehaviour
         // ball on the ground
         if (CameraContoller.onGround)
         {
-            // right or right
+            // right or left
             if (direction == 1 || direction == -1)
                 moveInGround(direction);
         }

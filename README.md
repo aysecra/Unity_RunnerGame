@@ -32,7 +32,7 @@
   <img src="Img/level3_2.PNG" alt="GameScene2"/>
 </p>
 
-### Next
+### Next Level
 <p>
   <img src="Img/nextlevel.PNG" alt="GameScene2"/>
 </p>

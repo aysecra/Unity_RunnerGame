@@ -41,7 +41,7 @@ public class BallController : MonoBehaviour
         // ball on the left wall
         else if (CameraContoller.onLeftWall)
         {
-            // right or right
+            // right or left
             if (direction == 1 || direction == -1)
                 moveInWall(direction, -1);
         }
@@ -49,7 +49,7 @@ public class BallController : MonoBehaviour
         // ball on the right wall
         else if (CameraContoller.onRightWall)
         {
-            // right or right
+            // right or left
             if (direction == 1 || direction == -1)
                 moveInWall(direction, 1);
         }
